@@ -1,0 +1,182 @@
+/* background */
+.cm-s-amerey.CodeMirror {
+  background: #000;
+  color: #fff;
+}
+
+/* selected block */
+.cm-s-amerey div.CodeMirror-selected {
+  background: #272727;
+}
+.cm-s-amerey .CodeMirror-selectedtext,
+.cm-s-amerey .CodeMirror-selected,
+.cm-s-amerey .CodeMirror-line::selection,
+.cm-s-amerey .CodeMirror-line > span::selection,
+.cm-s-amerey .CodeMirror-line > span > span::selection,
+.cm-s-amerey .CodeMirror-line::-moz-selection,
+.cm-s-amerey .CodeMirror-line > span::-moz-selection,
+.cm-s-amerey .CodeMirror-line > span > span::-moz-selection {
+  background: #272727;
+}
+
+/* cursor */
+.cm-s-amerey .CodeMirror-cursor {
+  border-left: 1px solid #fff;
+}
+
+/* left side */
+.cm-s-amerey .CodeMirror-gutters {
+  background: #000;
+  border: none;
+}
+
+/* numbers on left side */
+.cm-s-amerey .CodeMirror-linenumber {
+  color: #fff;
+}
+
+/* open/close arrows left side */
+.cm-s-amerey .CodeMirror-guttermarker-subtle {
+  color: rgba(255, 255, 255, 0.8);
+}
+
+/* active line - number */
+.cm-s-amerey
+  .CodeMirror-activeline
+  .CodeMirror-linenumber.CodeMirror-gutter-elt {
+  background: #000;
+  color: #ff0;
+}
+
+/* active line */
+.cm-s-amerey .CodeMirror-activeline-background {
+  background: #272727;
+  border-left: 1px solid #ff0;
+}
+
+/* matching brackets */
+.cm-s-amerey .CodeMirror-matchingbracket {
+  outline: 1px solid grey;
+  color: #ff0 !important;
+}
+
+/* jsx - import, export, if, return ... */
+.cm-s-amerey span.cm-keyword {
+  color: #75aeff;
+}
+
+/* jsx - import definition, props */
+.cm-s-amerey span.cm-def {
+  color: #fff;
+}
+
+/* jsx - conditional */
+.cm-s-amerey span.cm-variable-2 {
+  color: rgb(201, 222, 238);
+}
+
+/* jsx - conditional */
+.cm-s-amerey span.cm-property {
+  color: rgb(201, 222, 238);
+}
+
+/* jsx - < > && */
+.cm-s-amerey span.cm-operator {
+  color: rgb(150, 150, 150);
+}
+
+/* jsx - ./components/user.jsx ... */
+.cm-s-amerey span.cm-string {
+  color: rgb(244, 239, 200);
+}
+
+/* jsx - closing tag */
+.cm-s-amerey span.cm-string-2 {
+  color: rgb(244, 239, 200);
+}
+
+/* html - doctype, jsx - second param */
+.cm-s-amerey span.cm-meta {
+  color: rgb(244, 239, 200);
+}
+
+/* css, jsx - comments */
+.cm-s-amerey span.cm-comment {
+  color: rgb(232, 232, 232);
+  font-style: italic;
+}
+
+/* css - pseudoelements, jsx - elements */
+.cm-s-amerey span.cm-variable {
+  color: rgb(244, 239, 200);
+}
+
+/* css - element.element */
+.cm-s-amerey span.cm-qualifier {
+  color: rgb(255, 136, 0);
+}
+
+/* css - id, class name */
+.cm-s-amerey span.cm-builtin {
+  color: rgb(81, 170, 238);
+}
+
+/* css -element name */
+.cm-s-amerey span.cm-tag {
+  color: rgb(255, 255, 255);
+}
+
+/* css - text (value) */
+.cm-s-amerey span.cm-atom {
+  color: rgb(236, 237, 240);
+}
+
+/* css - numbers (value) */
+.cm-s-amerey span.cm-number {
+  color: rgb(55, 140, 220);
+}
+
+/* css - pseudo elements */
+.cm-s-amerey span.cm-variable-3,
+.cm-s-amerey span.cm-type {
+  color: rgb(255, 136, 0);
+}
+
+/* wrong closing tag */
+.cm-s-amerey span.cm-error {
+  color: red;
+}
+
+.cm-s-amerey pre {
+  padding: 0 8px;
+}
+
+.cm-s-amerey.CodeMirror span.CodeMirror-matchingbracket {
+  color: #7efc7e;
+}
+
+.cm-s-amerey .CodeMirror-guttermarker {
+  color: #599eff;
+}
+
+.cm-s-amerey span.cm-header {
+  color: #a0a;
+}
+
+.cm-s-amerey span.cm-quote {
+  color: #090;
+}
+
+.cm-s-amerey span.cm-bracket {
+  color: #ebefe7;
+}
+
+.cm-s-amerey span.cm-attribute {
+  color: #81a4d5;
+}
+.cm-s-amerey span.cm-hr {
+  color: #999;
+}
+.cm-s-amerey span.cm-link {
+  color: #00ff11;
+}
